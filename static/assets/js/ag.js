@@ -34,6 +34,11 @@ function discord() {
   sessionStorage.setItem('agUrl', agU);
   location.href = '/lessons';
 }
+function netflix() {
+  agU = Ultraviolet.codec.xor.encode('https://netflix.com');
+  sessionStorage.setItem('agUrl', agU);
+  location.href = '/lessons';
+}
 function github() {
   agU = Ultraviolet.codec.xor.encode('https://github.com');
   sessionStorage.setItem('agUrl', agU);
